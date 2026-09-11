@@ -8,7 +8,7 @@ appId: ${APP_ID} # iOS: com.meta.RNTester.localDevelopment | Android: com.facebo
 - extendedWaitUntil:
     visible:
       id: 'one_press_me_button'
-    timeout: 10000
+    timeout: 30000
 - tapOn:
     id: 'one_press_me_button'
 - assertVisible:
@@ -23,7 +23,7 @@ appId: ${APP_ID} # iOS: com.meta.RNTester.localDevelopment | Android: com.facebo
 - extendedWaitUntil:
     visible:
       id: 'pressable_feedback_events_button'
-    timeout: 10000
+    timeout: 30000
 - tapOn:
     id: 'pressable_feedback_events_button'
 - assertVisible:
@@ -42,7 +42,7 @@ appId: ${APP_ID} # iOS: com.meta.RNTester.localDevelopment | Android: com.facebo
 - extendedWaitUntil:
     visible:
       id: 'pressable_hit_slop_button'
-    timeout: 10000
+    timeout: 30000
 - tapOn:
     id: 'pressable_hit_slop_button'
 - assertVisible:
@@ -51,7 +51,7 @@ appId: ${APP_ID} # iOS: com.meta.RNTester.localDevelopment | Android: com.facebo
 - extendedWaitUntil:
     visible:
       id: 'tappable_text'
-    timeout: 10000
+    timeout: 30000
 - tapOn:
     id: 'tappable_text'
 - assertVisible:

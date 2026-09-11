@@ -28,7 +28,13 @@ import {
   initialNavigationState,
 } from './utils/testerStateUtils';
 import * as React from 'react';
-import {useCallback, useEffect, useMemo, useReducer} from 'react';
+import {
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useReducer,
+} from 'react';
 import {
   BackHandler,
   Button,
@@ -231,7 +237,7 @@ const RNTesterApp = ({
     },
     [dispatch],
   );
-  useEffect(() => {
+  useLayoutEffect(() => {
     // Initial deeplink
     Linking.getInitialURL()
       .then(url => url != null && handleOpenUrlRequest({url: url}))

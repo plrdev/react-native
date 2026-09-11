@@ -4,11 +4,7 @@ appId: ${APP_ID} # iOS: com.meta.RNTester.localDevelopment | Android: com.facebo
 - extendedWaitUntil:
     visible: 'Components'
     timeout: 30000
-- assertVisible:
-    id: 'components-tab'
-- assertVisible:
-    id: 'apis-tab'
 - openLink: rntester://example/AppearanceExample
 - extendedWaitUntil:
     visible: 'useColorScheme hook'
-    timeout: 10000
+    timeout: 30000

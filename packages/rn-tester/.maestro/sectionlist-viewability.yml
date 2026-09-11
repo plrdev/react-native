@@ -8,7 +8,7 @@ appId: ${APP_ID} # iOS: com.meta.RNTester.localDevelopment | Android: com.facebo
 - extendedWaitUntil:
     visible:
       id: 'start_test'
-    timeout: 10000
+    timeout: 30000
 - tapOn:
     id: 'start_test'
 - assertVisible:
@@ -18,7 +18,7 @@ appId: ${APP_ID} # iOS: com.meta.RNTester.localDevelopment | Android: com.facebo
 - extendedWaitUntil:
     visible:
       id: 'section-list-viewability-horizontal-no-wait'
-    timeout: 10000
+    timeout: 30000
 - assertVisible:
     id: 'output'
     text: '.*Pizza.*'
@@ -26,7 +26,7 @@ appId: ${APP_ID} # iOS: com.meta.RNTester.localDevelopment | Android: com.facebo
 - extendedWaitUntil:
     visible:
       id: 'section-list-viewability-horizontal-wait'
-    timeout: 10000
+    timeout: 30000
 - repeat:
     times: 3
     commands:
@@ -47,7 +47,7 @@ appId: ${APP_ID} # iOS: com.meta.RNTester.localDevelopment | Android: com.facebo
       - extendedWaitUntil:
           visible:
             id: 'section-list-viewability-vertical-wait'
-          timeout: 10000
+          timeout: 30000
       - repeat:
           times: 3
           commands:

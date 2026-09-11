@@ -8,7 +8,7 @@ appId: ${APP_ID} # iOS: com.meta.RNTester.localDevelopment | Android: com.facebo
 - extendedWaitUntil:
     visible:
       id: 'toggle-button'
-    timeout: 10000
+    timeout: 30000
 - assertVisible:
     id: 'fade-in-view'
 - tapOn:

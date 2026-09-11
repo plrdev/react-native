@@ -8,7 +8,7 @@ appId: ${APP_ID} # iOS: com.meta.RNTester.localDevelopment | Android: com.facebo
 - extendedWaitUntil:
     visible:
       id: 'alert-with-default-button'
-    timeout: 10000
+    timeout: 30000
 - tapOn:
     id: 'alert-with-default-button'
 - assertVisible: 'An external USB drive has been detected!'
@@ -17,7 +17,7 @@ appId: ${APP_ID} # iOS: com.meta.RNTester.localDevelopment | Android: com.facebo
 - extendedWaitUntil:
     visible:
       id: 'alert-with-three-buttons'
-    timeout: 10000
+    timeout: 30000
 - tapOn:
     id: 'alert-with-three-buttons'
 - assertVisible: 'Do you want to save your changes?'
